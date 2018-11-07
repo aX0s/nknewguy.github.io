@@ -1,0 +1,163 @@
+.navbar {
+    background-color:rgba(36, 36, 36, 0.80);
+    border-bottom: 1px solid rgba(255, 255, 255,0.80);
+    border-top: 1px solid rgba(255, 255, 255,0.80);}
+
+.navbar-nav > li {
+    padding: 0px 25px;}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;}
+
+.navbar a:hover {
+    color:  rgb(0, 238, 255);
+    transition: ease-in .5s}
+    
+.active>a {
+    color:  rgb(47, 89, 226);}
+
+.flex-fill {
+    flex: 1;}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255)!important;}
+
+.btngroup {
+    margin-left: 15px;
+    padding-bottom: 20px;}
+
+.b-con {
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 0.80);
+    margin-top: 15%;
+    margin-right: 5%;
+    margin-left: 25%;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;}
+
+.b-con p {
+    padding: 15px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);}
+
+.p-con {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);} 
+
+.word-doc>ul>li {
+    margin-bottom: 5px;}
+
+.word-doc {
+    padding: 30px;
+    margin: 10px;}
+    
+.c-con {
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 0.80);
+    font-family: 'Roboto Slab', serif;}
+
+.c-con p {
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);}
+    
+.w-con {
+    margin-top: 20px;}
+
+.mwel {
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 12%;}
+
+.close {display: none;}
+
+h6 {
+    font-family: 'Roboto Slab', serif !important;}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255,255,255)!important;
+    font-size: 2.5em;}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255,255,255)!important;
+    font-size: 2em;}
+
+.pheader {
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 25px;}
+
+.vid {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    height: 250px;
+    width: 250px;
+    padding: 20px;}
+
+.vid2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('assets/poster.png') no-repeat;
+    background-size: cover;}
+    /*Conrado Ramos, will somewhat tile. The poster exapnds when the video shrinks too small. Still figuring out how to use the @media feature with a video and regular image background. 05/04/2018 */
+    
+.pgrid {
+    align-content: center;
+    padding-left: 12%;
+    padding-right: 5%;}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;}
+
+footer a, footer small {
+    text-decoration: none;
+    color: rgb(255,255,255);}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;}
+ 
+#contact input[type=text],input[type=email],select,textarea,input[type=date] {
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 2px rgb(255,255,255) solid;
+    border-radius: 5px;
+}
+
+#contact input[type=text],input[type=email],select,textarea,input[type=date],label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contact {
+    display: inline-block;
+    position: relative;
+    padding: 0px 0px 20px 0px;
+}
+
+#contact label {
+    color: rgb(255,255,255);
+    font-size: 1em;
+}
