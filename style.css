@@ -1,10 +1,14 @@
 .navbar {
     background-color:rgba(36, 36, 36, 0.80);
     border-bottom: 1px solid rgba(255, 255, 255,0.80);
-    border-top: 1px solid rgba(255, 255, 255,0.80);}
+    border-top: 1px solid rgba(255, 255, 255,0.80);
+    min-height: 30px !important;}
 
 .navbar-nav > li {
     padding: 0px 25px;}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top: 5px !important; padding-bottom: 0px !important; height: 30px;}
 
 .navbar a {
     color: rgb(255, 255, 255);
