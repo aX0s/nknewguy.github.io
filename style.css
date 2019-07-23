@@ -12,6 +12,9 @@
     line-height: 15px;
     height: 30px;}
 
+.nav-logo {
+        line-height: 15px;}
+
 .navbar a {
     color: rgb(255, 255, 255);
     font-size: 1.2em;}
