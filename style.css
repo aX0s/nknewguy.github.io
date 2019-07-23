@@ -12,9 +12,6 @@
     line-height: 15px;
     height: 30px;}
 
-.nav-logo {
-        padding-bottom: 10px;}
-
 .navbar a {
     color: rgb(255, 255, 255);
     font-size: 1.2em;}
@@ -23,7 +20,7 @@
     color:  rgb(0, 238, 255);
     transition: ease-in .5s}
     
-.active>a {
+.active > a {
     color:  rgb(47, 89, 226);}
 
 .flex-fill {
@@ -54,7 +51,7 @@
     border-radius: 10px;
     background-color: rgb(255, 255, 255);} 
 
-.word-doc>ul>li {
+.word-doc > ul > li {
     margin-bottom: 5px;}
 
 .word-doc {
