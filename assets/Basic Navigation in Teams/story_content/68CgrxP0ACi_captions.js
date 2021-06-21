@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.46.23620.0%0D%0A%0D%0A00:00:00.256%20--%3E%2000:00:05.024%0D%0AIt%20is%20best%20practice%20to%20make%20a%20test%20call%20when%20using%20new%20equipment.%0D%0A%0D%0A"}')
